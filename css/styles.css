@@ -1,0 +1,92 @@
+body{margin: 0%;
+    padding: 0%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-color: rgb(153, 152, 150); */
+   
+}
+main{
+    margin: 0%;
+    padding: 0%;
+    width: 1140px;
+     background-color: rgb(22, 20, 20);
+    
+}
+/* navber start */
+.nav-ber{
+    
+}
+.nav-items-parent{
+    height:60px;
+   
+     width:100%; 
+    border-radius: 20px;
+    
+   
+}
+.nav-items-parent a{
+    float: right;
+    padding: 8px;
+    margin: 10px 8px 0px 15px;
+    text-decoration: none;
+    color:rgb(153, 152, 150);
+    font-weight: bold;
+    background-color: white;
+    box-shadow: inset  1px 1px 5px 1px  #000;
+}
+.nav-items-parent a:hover{
+    box-shadow: inset 5px 5px 10px 0px#000;
+}
+/* nav ber end */
+
+/* blogs start */
+.blogs{
+   margin-top: 100px;
+    display:flex ;
+    flex-direction: row;
+}
+.blog{
+   text-align: center;
+  
+}
+.blog img{
+    width: 80%;
+   
+}
+.blog p {
+    color: white;
+    margin-left: 35px;
+    font-size: 18px;
+    font-weight:700;
+    text-align: start;
+   
+    height: 150px;
+}
+/* blog end */
+
+
+/* baner */
+hr{ height: 4px;
+    width: 100%;
+    color:white;
+    background-color:white;
+}
+.baner{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+.baner-header{
+    color: white;
+}
+.baner-header h1{
+    font-size: 50px;
+    color: white;
+}
+.baner-image img{
+    width: 100%;
+    width: 600px;
+    
+}
